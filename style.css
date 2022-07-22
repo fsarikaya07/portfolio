@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    border: 0;
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    width: 100½;
+    height: 100px;
+    background-color: #000;
+    color: white;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 5px solid #ff3737;
+    font-family: 'Roboto', sans-serif;
+}
+.name h2{
+    margin: 0;
+    font-size: 50px;
+}
+.navigation ul {
+
+    list-style-type: none;
+    font-size: 30px;
+    display: flex;
+    gap: 20px;
+
+}
+.navigation ul li {
+    cursor: pointer;
+    padding: 10px;
+    transition: ease-in 300ms;
+}
+.navigation ul li:hover{
+    background-color: rgb(21, 19, 19);
+    padding: 10px;
+}
+.surname{
+    color: #ff3737;
+}
+ 
+/* this is the style of the main page */
+.main-page{
+    background: url("https://sergiotaco.github.io/html-css-workshop/images/banner.jpg");
+    width: 100%;
+    height: calc(100vh - 100px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-page::after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: calc(100vh - 100px) ;
+    background-color: rgba(0, 0, 0, 0.238);
+}
+
+ 
+.main-page h1{
+    margin: 0;
+    font-size: 50px;
+    z-index: 2;
+}
+.main-page h1{
+    
+    font-size: 40px;
+    z-index: 2;
+}
